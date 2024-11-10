@@ -16,7 +16,7 @@ sys.path.append("/home/pi/.local/lib/python3.7/site-packages/")  # PYTHONPATH fi
 
 import vlc  # python-vlc package, and VLC need to be installed
 
-url = "https://raw.githubusercontent.com/jjohne/seniorRadio/refs/heads/master/radioState.json"  # Change to your JSON online file!
+url = "https://raw.githubusercontent.com/jjohne/seniorRadio/refs/heads/master/internetStations.json"  # Change to your JSON online file!
 
 def buttonPress():
     player.pause()  # stops stream, resumes the stream on another press
